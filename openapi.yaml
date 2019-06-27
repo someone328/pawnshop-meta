@@ -6,6 +6,11 @@ info:
     name: Denis Ryleev
     email: ryleew@yandex.ru
   description: Модуль отчетов для сети ломбардов
+servers:
+  - url: http://localhost/{basePath}
+    variables:
+      basePath:
+        default: v1
 paths:
   x-apiVersion: v1
   /:
